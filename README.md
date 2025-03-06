@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# PhotoFolio - Online Photo Album App
+
+PhotoFolio is an online photo album React app that allows users to upload, organize, and share their digital photos.
+
+## Goal
+The goal of this project is to develop an online photo album application that enables users to upload, organize, and share their digital photos with ease.
+
+## Features
+- Maintain images by category in various albums.
+- Options for users to save, preview, update and delete images.
+- User-friendly and visually appealing design to encourage engagement.
+
+## Technologies Used
+- **React** (Functional Components, Hooks, Conditional Rendering)
+- **Firebase Firestore** (for persistent data storage)
+- **CSS/Styled Components** (for better UI/UX)
+
+
+
+## Usage
+- Users can create albums and add images.
+- Images are retrieved based on album ID.
+- Users can add ,preview,delete,update and manage images.
+
+
+
+
+>>>>>>> f53c9d2cee70fa090bc194faa1f353cc6bb58bad
