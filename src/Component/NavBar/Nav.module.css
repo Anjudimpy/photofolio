@@ -1,0 +1,19 @@
+.navbarContainer{
+    display: flex;
+    background: linear-gradient(to left,rgb(182, 250, 255), rgb(214, 142, 253));
+    color: white;
+    font-weight: 700;
+    padding: 0 2rem;
+}
+h3{
+    font-size: 1.4rem;
+    color: white;
+}
+.navbarContainer img {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+}
+.navLogo{
+    cursor: pointer;
+}

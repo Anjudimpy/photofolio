@@ -1,0 +1,206 @@
+.photoContainer{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding:1rem;
+    justify-content: space-between;
+}
+.backBtn{
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 2px 2px 10px rgb(200, 195, 201);
+    cursor: pointer;
+    margin: 0.5rem 1rem;
+}
+.backBtn img{
+    width: 2rem;
+    height: 2rem;
+
+}
+.photoTitle{
+    margin:1rem;
+    font-size: 2rem;
+    color: rgb(77, 73, 73);
+}
+.searchBar{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.searchBar input{
+    height: 2rem;
+    width: 12rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    outline: none;
+    border: 1px solid rgb(198, 91, 255);
+    border-radius: 2px;
+}
+.searchImg{
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
+
+.addImagesBtn{
+    height: 2.3rem;
+    padding: 0 0.7rem;
+    font-size: 1rem;
+    background-color: rgba(243, 223, 254, 0.682);
+    color: rgb(198, 91, 255);
+    font-weight: 700;
+    border: 2px solid rgb(198, 91, 255);
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px rgb(186, 172, 194);
+}
+.imageUploadContainer{
+    width: 45%;
+    margin:  1rem auto;
+    background-color: rgba(253, 244, 255, 0.859);
+    border-radius: 10px;
+    padding: 0.3rem 2rem;
+    box-shadow: 2px 2px 5px rgb(197, 188, 201);
+    color: rgb(74, 47, 88);
+    text-shadow: 2px 2px 5px rgb(165, 165, 165);
+}
+.imageUploadContainer input{
+    height: 2.5rem;
+    width: 90%;
+    padding: 0.3rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: rgb(127, 0, 196);
+    margin: 0.5rem;
+    box-shadow:2px 2px 2px rgb(237, 236, 236);
+}
+.buttons{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.clearBtn{
+    background-color: rgb(255, 38, 0);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+   cursor: pointer;
+   box-shadow: 2px 2px 5px rgb(176, 176, 176);
+}
+.createBtn{
+    background-color: rgb(198, 91, 255);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+   cursor: pointer;
+   box-shadow: 2px 2px 5px rgb(176, 176, 176);
+  
+}
+.imageCardContainer{
+    width: 80%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+.imageCard{
+    /* position: relative; */
+    height: 18vh;
+    width: 23.5vw;
+    background: linear-gradient(rgb(251, 244, 244) , rgb(231, 250, 255));
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0.7rem 0;
+    cursor: pointer;
+    box-shadow:inset 2px 2px 15px rgb(227, 229, 228);
+}
+.imageCard img{
+    height: 14vh;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.imageCard p{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.updateDaleteContainer{
+    position:relative;
+    bottom: -25px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.updateDaleteContainer img{
+    height: 2rem;
+   cursor: pointer;
+}
+.deleteIcon{
+    margin-right: -0.5rem;
+    margin-left: 0.5rem;
+}
+
+.imageViewer{
+    position:absolute;
+    top: 0;
+    background-color: rgba(39, 38, 38, 0.523);
+    margin-top: 0.5rem;
+    width: 99%;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+   padding: 0;
+}
+.imageViewer img{
+ margin: 5rem 3rem;   
+ width: 70%;
+}
+.navButton{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    top: 50%;
+    font-size: 2rem;
+    background-color: rgba(220, 218, 218, 0.547);
+    box-shadow: 2px 2px 5px rgb(85, 84, 85);
+}
+.navButton:hover{
+    background-color: rgb(198, 91, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.closeButton{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    top: 5%;
+    right: 5%;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 2px 2px 5px rgb(85, 84, 85);
+}
+.closeButton:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
