@@ -12,7 +12,7 @@ export default function UserAlbum({ selectedAlbum, handleBack }) {
   const [editImage, setEditImage] = useState(null);
   const [searchImage, setSearchImage] = useState("");
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
-
+  const [hoveredIndex, setHoveredIndex] = useState(null);
  
   async function fetchImagesByAlbum(albumId) {
     if (!albumId) return;
@@ -150,10 +150,13 @@ export default function UserAlbum({ selectedAlbum, handleBack }) {
       <div className={styles.imageCardContainer}>
         {filterImages.length > 0 ? (
          filterImages.map((img, index) => (
-            <div key={img.id}>
-              <div className={styles.updateDaleteContainer}>
+            <div key={img.id} onMouseOver={()=>setHoveredIndex(index)} onMouseLeave={()=>setHoveredIndex(null)}>
+              <div className={styles.updateDaleteContainer}
+               style={{ display: hoveredIndex === index ? "flex" : "none" }}
+             >
 
                 <img src="updateIcon.png" alt="updateIcon"
+               
                  onClick={() => {
                    setEditImage(img); 
                    setShowUploadForm(true);
