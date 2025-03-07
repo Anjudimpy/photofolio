@@ -286,9 +286,10 @@
         width: 70%;
         height: 50%;
         margin: 5rem 0.5rem; 
+        margin-top: 40%;
     }
     .navButton{
-        top: 40%;
+        top: 50%;
         width: 2rem;
         height: 2rem;
         font-size: 1rem;
